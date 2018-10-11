@@ -8,14 +8,18 @@ LINKS_TO: HOMEPAGE
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>"Title"</title>
+		<title>Menu</title>
 	</head>
 	
 	<body>
-		<h1>"Hello"</h1>
-		<p>"Word"</p>
-		Username: <input type="text" name="Username"><br>
-		Password: <input type="text" name="Password"><br>
-		<button>"Login"</button><button>"Create Account"</button>
+		Username: <input type="text" name="username"><br>
+		Password: <input type="password" name="Password"><br><br>
+
+		<!-- Find a way to verify that the login presented is valid, then use that info to populate future pages-->
+		<button onclick="window.location.href='HOMEPAGE.html'">Login</button>
+		<!-- Button for create new id needs to refresh the page and prompt user to log in again-->
+		<button>Create Account</button>
+
+
 	</body>
 </html>
